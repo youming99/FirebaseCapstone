@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="halla.icsw.capstone_hym">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Country_Game2_Activity"></activity>
+        <activity android:name=".Gugudan_CarGame_Activity" />
+        <activity android:name=".ThirdFragment" />
+        <activity android:name=".SecondFragment" />
+        <activity android:name=".FirstFragment" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".Country_Game1_Activity" />
+        <activity android:name=".CountryActivity" />
+        <activity android:name=".Country_Big_Activity" />
+        <activity android:name=".Country_Listview_Activity" />
+        <activity android:name=".Country_Category_Activity" />
+        <activity android:name=".SignUp_Activity" />
+        <activity android:name=".LogIn_Activity" />
+        <activity android:name=".Gugudan2_19Activity" />
+        <activity android:name=".Gugudan_Study2_Activity" />
+        <activity android:name=".Gugudan_Study_Activity" />
+        <activity android:name=".GugudanActivity" />
+        <activity android:name=".Gugudan_SimpleGame_Activity" />
+        <activity android:name=".Gugudan2_9Activity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
